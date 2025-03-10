@@ -52,7 +52,7 @@ N.B. When launching the generation, MG5 will use by default these cards. If you 
 A basic production of MC events using the chain can be done as follows.
 Setup the launcher file. This is a setup file that can be given to run MG5 specifying: process, number of events to simulate, energy and type of beams, phase space cuts, matching scheme, pythia8 and detector switch.
 
-An example can be found [here][https://github.com/cesarecazzaniga/MG5SampleGen/blob/main/launch_files_examples/launcher_QCD_dijet_SMALLtest.txt].
+An example can be found [here](https://github.com/cesarecazzaniga/MG5SampleGen/blob/main/launch_files_examples/launcher_QCD_dijet_SMALLtest.txt).
 
 Once the main settings are specified in the launcher, then the generation can be started:
 
@@ -63,7 +63,7 @@ Once the main settings are specified in the launcher, then the generation can be
 
 ## Submitting jobs
 
-A minimal job submission example is provided in this repo [here][https://github.com/cesarecazzaniga/MG5SampleGen/tree/main/condor_submit].
+A minimal job submission example is provided in this repo [here](https://github.com/cesarecazzaniga/MG5SampleGen/tree/main/condor_submit).
 The code executed is ```sims_launcher_test.sh```. There you need to specify the launcher file and the output directories where to save the output of the simulation.
 By default the code will save only the output of the detector simulation in order to save space, the additional information provided by madgraph is not kept.
 
