@@ -1,0 +1,15 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MG5SampleGen
+message: >-
+  Basic instructions and minimal code to run fast simulation
+  pipeline with MG5+Pythia8+Delphes
+type: software
+authors:
+  - given-names: Cesare
+    family-names: Cazzaniga
+    email: cesare.cazzaniga@cern.ch
+    affiliation: ETH Zurich
+    orcid: 'https://orcid.org/0000-0003-0001-7657'
