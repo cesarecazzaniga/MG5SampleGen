@@ -1,0 +1,13 @@
+define j = g u c d s b u~ c~ d~ s~ b~ 
+generate p p > j j QED=0
+output /eos/user/c/cazzanig/small_test_mg5_1
+launch /eos/user/c/cazzanig/small_test_mg5_1
+pythia=ON
+delphes=ON
+set nevents 100
+set iseed 0
+set ebeam1 6500
+set ebeam2 6500
+set ickkw 1
+set xqcut 30
+set ptj1min 500.0

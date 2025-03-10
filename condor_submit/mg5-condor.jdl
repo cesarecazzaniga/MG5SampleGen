@@ -1,0 +1,13 @@
+universe = vanilla
+Executable = sims_launcher_test.sh
+Arguments = 0 $(ProcId)
+Output = /afs/cern.ch/user/c/cazzanig/private/sim_TEST/logs_test//sim_$(Cluster)_$(Process).out
+Error = /afs/cern.ch/user/c/cazzanig/private/sim_TEST/logs_test//sim_$(Cluster)_$(Process).err
+Log = /afs/cern.ch/user/c/cazzanig/private/sim_TEST/logs_test//sim_$(Cluster)_$(Process).log
+notify_user = cesare.cazzaniga@cern.ch
+notification = always
+use_x509userproxy = true
+should_transfer_files = YES
++JobFlavour = "workday"
+
+Queue 1
